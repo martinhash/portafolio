@@ -1,5 +1,5 @@
 
-export interface InfoPagina {
+export interface InfoEquipo {
   titulo?: string;
   pagina_autor?: string;
   titulo_autor?: string;
