@@ -13,6 +13,10 @@ export class HeaderComponent implements OnInit {
 
   }
 
+  buscarProducto(termino: string){
+    console.log(termino);
+  }
+
   ngOnInit() {
   }
 

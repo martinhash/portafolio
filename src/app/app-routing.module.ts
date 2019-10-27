@@ -6,7 +6,7 @@ import { ItemComponent } from './pages/item/item.component';
 const appPoutingModule: Routes = [
 
     {path: '', component: PortafolioComponent},
-    {path: 'item', component: ItemComponent},
+    {path: 'item/:id_producto', component: ItemComponent},
     {path: 'about', component: AboutComponent},
     {path: '**', pathMatch:'full', redirectTo: ''},
 

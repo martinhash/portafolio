@@ -20,4 +20,9 @@ export class ProductoService {
         this.producto = resp;
       } )
   }
+
+  getProducto( id: String){
+    return this.http.get(`https://angular-html-958ee.firebaseio.com/productos/${ id }.json`)
+  }
+
 }
